@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="bootstrap-3.3.6-dist/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/general-style.css">
+  <link rel="stylesheet" type="text/css" href="js/owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css">       
+  <link type="text/css" href="font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="css/own-style.css">
+  <script src="js/jquery-2.2.3.js"></script>
+  <script src="js/owl.carousel.2.0.0-beta.2.4/owl.carousel.js"></script> 
+</head>
+
+<body>
+<header class="top-header">
+  <div class="bg-top-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <nav class="navbar navbar-default" id="top-nav">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+                          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li><a href="index.html">Главная <span class="sr-only">(current)</span></a></li>
+                    <li><a href="contact.html">Каталог</a></li>
+                    <li><a href="checkout.html">Оплата и доставка</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                  </ul>  
+                </div>
+                <div class="main-discount">Бешенные скидки <span>25%</span></div>   
+              </nav>    
+        </div>
+      </div>
+    </div>
+  </div> 
+  <div class="bg-buttom-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-2">
+          <div class="logo">
+            <a href="#" title="Main page" id="logo"><!--<img src="image/logo.png" alt="logo">-->Логотип</a>   
+          </div>     
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
+          <div class="tagline">
+            <span>Оригинальные запчасти и аксессуары</span> 
+          </div>       
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+          <div class="phone">
+            <a href="#" title="tel:+375337894554"><span>+375 (33) 789-45-54</span></a><br>
+            <a href="#" title="tel:+375337894554"><span>+375 (33) 789-45-54</span></a><br>
+            <a href="#" title="tel:+375337894554"><span>+375 (33) 789-45-54</span></a>
+          </div>      
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+          <div id="cart-profile" class="right-block">
+              <div>
+                <a href="#" class="profile">
+                  <i class="fa fa-user fa-2x" aria-hidden="true"></i>
+                  <span>Профиль</span>
+                </a>
+              </div> 
+              <div class="picter-cart">
+                <a href="#"  class="active">
+                  <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+                  <span id="value">16</span>
+                  <span id="purse">3 000 000 </span>
+                  <span id="monetary-val">Br</span>
+                </a>  
+              </div> 
+          </div>      
+        </div>
+      </div>
+    </div>
+  </div>   
+</header>
+
+<section>
+  <div class="main-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <ol class="breadcrumb">
+            <li><a href="catalog.html">Главная</a></li>
+            <li class="active">Товары в корзине</li>
+          </ol>  
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <ul class="cart-menu">
+            <li class="active"><a href="#">Товары в корзине</a></li>
+            <li><a href="checkout.html">Оформление заказа</a></li>
+          </ul>  
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+          <div class="cart-table">
+            <table class="cart-prod-table">
+              <tr>
+                <th><span>2</span> товара</th>
+                <th>Цена</th>
+                <th>Количество</th>
+                <th>Стоимость</th>
+                <th></th>
+              </tr>
+              <tr>
+                <td>
+                  <div class="wrap-img-sm">
+                    <img src="image/c8pAXHl9NHQ.jpg">
+                  </div>  
+                  <h2>Клейкая лента для дисплея  Samsung SM-G870F Galaxy S5 Active (оригинал)</h2>
+                  <a href="" class="name-prod">Клейкая лента</a>
+                </td>
+                <td><span class="new-price"><span>215 930</span> <span>Br</span></span></td>
+                <td>
+                  <button class="minus">&minus;</button>
+                  <span class="count-prod">13</span>
+                  <button class="plus">&plus;</button>
+                </td>
+                <td><span class="total-price"><span>9 215 930</span> <span>Br</span></span></td>
+                <td>
+                  <button class="close"><i class="fa fa-times" aria-hidden="true"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="wrap-img-sm">
+                    <img src="image/c8pAXHl9NHQ.jpg">
+                  </div> 
+                  <h2>Клейкая лента для дисплея  Samsung SM-G870F Galaxy S5 Active (оригинал)</h2>
+                  <a href="" class="name-prod">Клейкая лента</a>
+                </td>
+                <td><span class="new-price"><span>215 930</span> <span>Br</span></span></td>
+                <td>
+                  <button class="minus">&minus;</button>
+                  <span class="count-prod">13</span>
+                  <button class="plus">&plus;</button>
+                </td>
+                <td><span class="total-price"><span>9 215 930</span> <span>Br</span></span></td>
+                <td>
+                  <button class="close"><i class="fa fa-times" aria-hidden="true"></i></button>
+                </td>
+              </tr>
+            </table>
+          </div>      
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+          <form class="place_order" action="" method="post" name="place_order">
+            <h2>итого:</h2>
+            <span class="total-price"><span>9 215 930</span> <span>Br</span></span><br>
+            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i><br>
+            <span>Минимальная стоимость заказа:</span><br>
+            <span class="min-cost">30 000 <span>Br</span></span><br>
+            <button class="order">
+              <a href="#" class="btn center-block">Оформить заказ</a>
+            </button>
+          </form>  
+        </div>
+      </div>
+    </div>
+    <div class="similar-prod interesting-prod">  
+      <div class="container">
+        <div class="wrap-owl-carousel">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <h2><a href="">Будет интересно</a></h2> 
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="owl-carousel owl-theme owl-responsive-1000 owl-loaded">
+                    <div class="item">
+                      <div class="product">
+                        <a href="#" title="Подробнее">
+                          <div class="new-prod">Новинка</div>
+                          <div class="prod-img">
+                            <img src="image/m3fDef4L9kQ.jpg">
+                          </div>  
+                          <p class="description"><span>Клейкая лента для дисплея Samsung SM-G870F Galaxy S5 Active (оригинал)</span></p>
+                          <span class="old-price"><span>1 076 930</span> <span>Br</span></span>
+                          <span class="new-price"><span>1 076 930</span> <span>Br</span></span>
+                        </a>
+                      </div>  
+                    </div>
+                    <div class="item">
+                      <div class="product">
+                        <a href="#" title="Подробнее">
+                          <div class="discount-prod">Скидка</div>
+                          <div class="prod-img">
+                            <img src="image/m3fDef4L9kQ.jpg">
+                          </div>  
+                          <p class="description"><span>Клейкая лента для дисплея Samsung SM-G870F Galaxy S5 Active (оригинал)</span></p>
+                          <span class="old-price"><span>1 076 930</span> <span>Br</span></span>
+                          <span class="new-price"><span>1 076 930</span> <span>Br</span></span>
+                        </a>
+                      </div>  
+                    </div>
+                    <div class="item">
+                      <div class="product">
+                        <a href="#" title="Подробнее">
+                          <div class="prod-img">
+                            <img src="image/m3fDef4L9kQ.jpg">
+                          </div>  
+                          <p class="description"><span>Клейкая лента для дисплея Samsung SM-G870F Galaxy S5 Active (оригинал)</span></p>
+                          <span class="old-price"><span>1 076 930</span> <span>Br</span></span>
+                          <span class="new-price"><span>1 076 930</span> <span>Br</span></span>
+                        </a>
+                      </div>  
+                    </div>
+                    <div class="item">
+                      <div class="product">
+                        <a href="#" title="Подробнее">
+                          <div class="prod-img">
+                            <img src="image/m3fDef4L9kQ.jpg">
+                          </div>  
+                          <p class="description"><span>Клейкая лента для дисплея Samsung SM-G870F Galaxy S5 Active (оригинал)</span></p>
+                          <span class="old-price"><span>1 076 930</span> <span>Br</span></span>
+                          <span class="new-price"><span>1 076 930</span> <span>Br</span></span>
+                        </a>
+                      </div>  
+                    </div>
+                    <div class="item">
+                      <div class="product">
+                        <a href="#" title="Подробнее">
+                          <div class="prod-img">
+                            <img src="image/m3fDef4L9kQ.jpg">
+                          </div>  
+                          <p class="description"><span>Клейкая лента для дисплея Samsung SM-G870F Galaxy S5 Active (оригинал)</span></p>
+                          <span class="old-price"><span>1 076 930</span> <span>Br</span></span>
+                          <span class="new-price"><span>1 076 930</span> <span>Br</span></span>
+                        </a>
+                      </div>  
+                    </div>
+                    <div class="item">
+                      <div class="product">
+                        <a href="#" title="Подробнее">
+                          <div class="prod-img">
+                            <img src="image/m3fDef4L9kQ.jpg">
+                          </div>  
+                          <p class="description"><span>Клейкая лента для дисплея Samsung SM-G870F Galaxy S5 Active (оригинал)</span></p>
+                          <span class="old-price"><span>1 076 930</span> <span>Br</span></span>
+                          <span class="new-price"><span>1 076 930</span> <span>Br</span></span>
+                        </a>
+                      </div>  
+                    </div> 
+                </div>
+              </div>  
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+          <h2>О сервисе</h2>
+          <p>Сервис позволяет учитывать товары на нескольких складах одновременно. 
+              Без проблем можно вести заказы, закупки, продажи, перемещения, видеть оперативные остатки на любом
+              из складов и многое-многое другое!</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+          <div class="about-com">
+            <h2>О компании</h2>
+            <a href="#" title="О магазине"><span>О магазине</span></a><br>
+            <a href="#" title="Отзывы"><span>Отзывы</span></a><br>
+            <a href="#" title="Контакты"><span>Контакты</span></a><br>
+          </div>  
+          <div class="footer-payment">
+            <h2>Способы оплаты</h2>
+            <a href="#" title="Visa"><i class="fa fa-cc-visa fa-2x" aria-hidden="true"></i></a>
+            <a href="#" title="Mastercard"><i class="fa fa-cc-mastercard fa-2x" aria-hidden="true"></i></a>
+            <a href="#" title="Money"><i class="fa fa-money fa-2x" aria-hidden="true"></i></a>
+          </div>  
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><h2>Последние новости</h2></div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <article>
+                <div class="block-news">
+                  <span class="news-date">9 марта 2016</span>
+                  <p><a href="" title=""><span>Black Friday</span> <span>В розничных магазинах -30% на чехлы, зарядки, кабеля, удлинители!</span></a></p>
+                </div>
+              </article>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <article>
+                <div class="block-news">
+                  <span class="news-date">9 марта 2016</span>
+                  <p><a href="" title=""><span>Black Friday</span> <span>В розничных магазинах -30% на чехлы, зарядки, кабеля, удлинители!</span></a></p>
+                </div>
+              </article>
+            </div> 
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <article>
+                <div class="block-news">
+                  <span class="news-date">9 марта 2016</span>
+                  <p><a href="" title=""><span>Black Friday</span> <span>В розничных магазинах -30% на чехлы, зарядки, кабеля, удлинители!</span></a></p>
+                </div>
+              </article>
+            </div> 
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <article>
+                <div class="block-news">
+                  <span class="news-date">9 марта 2016</span>
+                  <p><a href="" title=""><span>Black Friday</span> <span>В розничных магазинах -30% на чехлы, зарядки, кабеля, удлинители!</span></a></p>
+                </div>
+              </article>
+            </div>   
+          </div> 
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-5 col-md-3 col-lg-3">
+          <div class="text-left">
+            <span>&#169; OOO &#171;НАЗВАНИЕ &#187;, 2010-2016</span>
+          </div>
+        </div>
+        <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+          <div class="social-footer">
+            <a href="https://vk.com/intellectit" title="Мы ВКонтакте"><i class="fa fa-vk"></i></a>
+            <a href="https://www.facebook.com/intellectit.minsk" title="Мы на facebook.com"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/IIT_Minsk" title="Мы в твиттере"><i class="fa fa-twitter"></i></a>
+            <a href="https://plus.google.com/+IntellectitBySS/posts" title="Мы в Google Plus"><i class="fa fa-google-plus"></i></a>
+          </div>
+        </div>
+        <div class="col-xs-8 col-sm-4 col-md-2 col-lg-2">
+          <div class="phone text-right">
+            <a href="#" title="tel:+375337894554"><span>+375 (33) 789-45-54</span></a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+          <div class="adress">
+            <a href="#" title="Минск,Тимирязева67,офис625"><span>Минск, Тимирязева 67, офис 625</span></a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
+          <div class="all-adress">
+            <span><a href="#" title="Всеадреса"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Все адреса</span></a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script type="text/javascript">
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        //nav:true,
+        //navigation:false,
+        responsive:{
+            0:{
+                items:1,
+                nav:false
+            },
+            600:{
+                items:3,
+                nav:true
+            },
+            1000:{
+                nav: true,
+                items:4
+            }
+        }
+    })
+</script>
+<script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

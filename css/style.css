@@ -1,0 +1,354 @@
+@import url('fonts.css');
+
+body {
+	font-family: "GothamProRegular";
+	color:  #fff;
+	font-size: medium;
+	line-height: 1.333em;
+	text-align: center;
+}
+a,
+a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+a:visited {
+	color: #fff;
+}
+/*HEADER*/
+#top-header {
+	position: relative;
+	display: block;
+	min-height: 590px;
+	padding-top: 5px;
+	background: #d5eef4 url("../image/background-top.png") no-repeat center center;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+			background-size: cover;
+	overflow: hidden;
+}
+.bg-opasity {
+    background: transparent;
+    -webkit-background-color:  rgba(0, 0, 0, 0.65);
+       -moz-background-color:  rgba(0, 0, 0, 0.65);
+        -ms-background-color:  rgba(0, 0, 0, 0.65);
+         -o-background-color:  rgba(0, 0, 0, 0.65);
+            background-color:  rgba(0, 0, 0, 0.65);
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+#logo,
+#cart-profile {
+	display: inline-block;
+	padding-top: 15px;
+}
+#cart-profile {
+	position: relative;
+	width: 80px;
+	height: 55px;
+}
+.picter-cart a {
+	cursor: pointer;
+}
+.picter-cart img {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.picter-cart #value {
+	display: block;
+	position: absolute;
+	bottom: 25px;
+	left: 25px;
+	padding: 0 4px 0 4px;
+	background-color: #26c281;
+	border-radius: 20px;
+	font-size: 0.75em;
+	color: #fff;
+}
+.profile {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 45px;
+}
+#top-header h1 {
+	margin-top: 15%;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	font-family: "GothamProMedium";
+	font-size: 2.25em;
+}
+#top-header h2 {
+	margin-top: 15px;
+	margin-bottom: 25px;
+	font-size: 1.25em;
+}
+.search {
+	margin-top: 10%;
+}
+.search input[type="text"] {
+	height: 45px;
+}
+.search .btn {
+	padding: 12.5px 40px;
+}
+
+/* Main section */
+/*Search table*/
+
+.search-table h2 {
+    margin-top: 45px;
+    margin-bottom: 30px;
+	font-family: "GothamProMedium";
+	color:  #333;
+	font-size: 2.563em;
+	line-height: 1.171;
+}
+.search-table table {
+	width: 100%; 
+	text-align: left;
+}
+.search-table table tr th,
+.search-table table tr td {
+	padding-left: 20px;
+}
+.search-table table tr td {
+	padding: 20px;
+}
+.search-table table tr {
+	border-bottom: 1px dashed #efefef;
+}
+.search-table table tr:first-child {
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	background-color:  #f2f6f7;
+	height: 45px;
+	padding-left: 20px;
+	border: none;
+}
+.search-table table tr td:nth-child(4),
+.search-table table tr td:nth-child(5) {
+	text-align: center;
+}
+.search-table table,
+.search-table a {
+	font-family: "GothamProRegular";
+	color:  #333;
+	font-size: 0.875em;
+	line-height: 1.857;
+}
+/*end search*/
+
+.block {
+	margin-top: 20px;
+	height: 290px;
+	background-color: #f2f6f7;
+}
+.block-1 {
+	padding: 60px 0 0 20px;
+	text-align: left;
+	background-color: #26c281;
+}
+.block-1 div {
+	margin-bottom: 5%;
+}
+.block-1 span {
+	display: inline-block;
+}
+.block-1 div span:first-child {
+	font-family: "GothamProBold";
+	font-size: 1.675em;
+	line-height: 1;
+}
+.block-1 div span:last-child {
+	font-family: "GothamProRegular";
+	font-size: 0.75em;
+	font-weight: 400;
+	line-height: 2;
+}
+.block-1 div:nth-child(2) span:first-child {
+	padding-top: 20px;
+    border-top: 2px solid #fff;
+}
+/* Block2 */
+.block-2 {
+	position: relative;
+	display: block;
+	background: #d5eef4 url("../image/background-block.png") no-repeat center center;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+			background-size: cover;
+	overflow: hidden;
+}
+.discount {
+	margin-top: 20%;
+	margin-bottom: 7%;
+}
+.discount span:first-child {
+	font-family: "GothamProBold";
+	font-size: 1.675em;
+	line-height: 1.8em;
+}
+/*Block 3*/
+.social {
+	display: inline-block;
+	width: 50%;
+	height: 50%;
+}
+.social a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.social i {
+	margin-top: 30%;
+}
+.social-fb i {
+	padding: 5px 5px 0 10px;
+	background-color: #fff;
+	color: #3b5999;
+}
+.social-fb {
+	float: left;
+	background-color: #3b5999;
+}
+.social-fb:hover  {
+	background-color: #374E80;
+}
+.social-vk {
+	float: right;
+	background-color: #4c75a3;
+}
+.social-vk:hover {
+	background-color: #3E6086;
+}
+.social-tw {
+	float: left;
+	background-color: #5ea9dd;
+}
+.social-tw:hover {
+	background-color: #5497C5;
+}
+.social-g {
+	float: right;
+	background-color: #f58220;
+}
+.social-g:hover {
+	background-color: #DA7A28;
+}
+/* footer */
+#bottom-footer {
+	margin-top: 5px;
+}
+#bottom-footer,
+#bottom-footer a {
+	font-family: "GothamProRegular";
+	color:  #333333;
+	font-size: 0.9em;
+	line-height: 2.167;
+}
+#bottom-footer .all-adress {
+	text-align: right;
+}
+#bottom-footer .social-footer a:first-child {
+	color:  #4c75a3;
+}
+#bottom-footer .social-footer a:nth-child(2) {
+	padding: 3px 3px 0 3px;
+	background-color: #3b5999;
+	color:  #fff;
+}
+#bottom-footer .social-footer a:nth-child(3) {
+	color:  #5ea9dd;
+}
+#bottom-footer .social-footer a:last-child {
+	color:  #f58220;
+}
+#bottom-footer .phone a {
+	font-family: "GothamProBold";
+}
+#bottom-footer .all-adress i {
+	padding-right: 10px;
+}
+@media screen and (max-width: 980px) {
+    #bottom-footer .social-footer {
+		text-align: right;
+	}
+}
+@media screen and (max-width: 360px) {
+    #bottom-footer .social-footer,
+    #bottom-footer .adress,
+    #bottom-footer .all-adress {
+		text-align: left;
+	}
+}
+/* Page with catalog */
+.top-header,
+.top-header a {
+	color: #000;
+	font-size: 0.9em;
+}
+.bg-top-header {
+	background-color: #2765CA;
+	padding-top: 5px;
+    padding-bottom: 5px; 
+}
+.top-header #logo {
+	text-align: left;
+	font-size: 1.8em;
+}
+.top-header .logo {
+	text-align: left;
+}
+.tagline {
+	line-height: 4em;
+}
+.top-header .phone a {
+	font-family: "GothamProBold";
+}
+.bg-buttom-header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.top-header #cart-profile {
+	width: 260px;
+	height: 44px;
+}
+.top-header #cart-profile i {
+	padding-right: 10px;
+	font-size: 1.7em;
+}
+.top-header .profile {
+    left: 0;
+}
+.top-header .picter-cart {
+	position: absolute;
+    right: 0;
+}
+.top-header .picter-cart #value {
+    bottom: 15px;
+    left: 22px;
+}
+.top-header .profile {
+    padding: 5px 10px;
+}
+.top-header .picter-cart a {
+    padding: 15px 10px 9px 10px;
+}
+.top-header .picter-cart a:hover,
+.top-header .profile:hover {
+    background-color: #F7F7F7;
+}
+@media screen and (max-width: 360px) {
+    .top-header #logo {
+		text-align: center;
+		
+	}
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="bootstrap-3.3.6-dist/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="js/owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css">        
+  <link type="text/css" href="font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="css/own-style.css">
+  <script type="text/javascript" src="js/jquery-2.2.2.js"></script>
+</head>
+
+<body>
+
+<header id="top-header">
+  <div class="bg-opasity">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-3 col-sm-2 col-md-3 col-lg-3 text-left">
+            <a href="#" title="Main page" id="logo"><!--<img src="image/logo.png" alt="logo">-->Логотип</a>
+          </div> 
+          <div class="col-xs-5 col-sm-8 col-md-7 col-lg-7">
+            <nav class="navbar navbar-default" id="top-nav">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li><a href="catalog.html">Каталог <span class="sr-only">(current)</span></a></li>
+                  <!-- <li><a href="#">Спецпредложения</a></li> -->
+                  <li><a href="checkout.html">Оплата и доставка</a></li>
+                  <li><a href="contact.html">Контакты</a></li>
+                </ul> 
+              </div>   
+            </nav>    
+          </div>  
+          <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2 text-right">
+            <div id="cart-profile" class="right-block">
+              <div class="picter-cart">
+                <a href="cart.html">
+                  <img src="image/cart.png" alt="icon-trolley">
+                  <span id="value">16</span>
+                </a>  
+              </div>
+              <div>
+                <a href="#" class="profile">
+                  <img src="image/profile.png">
+                </a>
+              </div>  
+            </div> 
+          </div> 
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h1 class="text-center">Запчасти для мобильных устройств</h1>
+            <h2 class="text-center">Продажа и замена запчастей за умеренные деньги!</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <a href="catalog.html" class="btn center-block">Перейти в каталог</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="search">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Название запчасти">
+                <span class="input-group-btn">
+                  <button class="btn btn-search" type="button"><span class="glyphicon glyphicon-search"></span> Начать поиск!</button>
+                </span>
+              </div>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </div>  
+</header>
+
+<section id="main-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="search-table">
+          <h2>Результаты поиска</h2>
+          <table>
+            <tr>
+              <th>Артикул</th>
+              <th>Категория</th>
+              <th>Наименование</th>
+              <th>Нал.</th>
+              <th>Цена, руб.</th>
+            </tr>
+            <tr>
+              <td>
+                <a href="">АртиПОДЛОООкул</a>
+              </td>
+              <td>Подложки клавиатуры</td>
+              <td>Sansung S5620 + mic original</td>
+              <td>
+                <i class="fa fa-plus" aria-hidden="true"></i>
+              </td>
+              <td>115 000</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="">P3AP00025</a>
+              </td>
+              <td>Разъемы</td>
+              <td>Charger connector Huawei G510/Prestigio P7280</td>
+              <td>
+                <i class="fa fa-minus" aria-hidden="true"></i>
+              </td>
+              <td>46 000</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <div class="block block-1">
+          <div>
+            <span>3 000</span><br>
+            <span>наименований</span>
+          </div>
+          <div>
+            <span>12</span><br>
+            <span>категорий</span>
+          </div>
+          <a href="catalog.html" class="btn center-block">В каталог</a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <div class="block block-2">
+          <div class="bg-opasity">
+            <div class="discount">
+              <span class="discount-value" id="discount-value">-20</span>%<br>
+              <span class="discount-name" id="discount-name">на корпуса Samsung</span>
+            </div>
+            <a href="#" class="btn center-block">Подробнее</a>
+          </div>  
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <div class="block block-3">
+          <div class="social social-fb"> 
+            <a href="https://www.facebook.com/intellectit.minsk" title="Мы на facebook.com">
+              <i class="fa fa-facebook fa-2x"></i>
+            </a>
+          </div> 
+          <div class="social social-vk"> 
+            <a href="https://vk.com/intellectit" title="Мы ВКонтакте">
+              <i class="fa fa-vk fa-2x"></i>
+            </a>
+          </div> 
+          <div class="social social-tw"> 
+            <a href="https://twitter.com/IIT_Minsk" title="Мы в твиттере">
+              <i class="fa fa-twitter fa-2x"></i>
+            </a>
+          </div>
+          <div class="social social-g"> 
+            <a href="https://plus.google.com/+IntellectitBySS/posts" title="Мы в Google Plus">
+              <i class="fa fa-google-plus fa-2x"></i>
+            </a>
+          </div>         
+        </div>
+      </div>
+      <!-- <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <div class="block block-4">
+          
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <div class="block block-5">
+          
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <div class="block block-6">
+          
+        </div>
+      </div> -->
+    </div>
+  </div>
+</section>
+
+<footer id="bottom-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-5 col-md-3 col-lg-3">
+        <div class="text-left">
+          <span>&#169; OOO &#171;НАЗВАНИЕ &#187;, 2010-2016</span>
+        </div>
+      </div>
+      <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+        <div class="social-footer">
+          <a href="https://vk.com/intellectit" title="Мы ВКонтакте"><i class="fa fa-vk"></i></a>
+          <a href="https://www.facebook.com/intellectit.minsk" title="Мы на facebook.com"><i class="fa fa-facebook"></i></a>
+          <a href="https://twitter.com/IIT_Minsk" title="Мы в твиттере"><i class="fa fa-twitter"></i></a>
+          <a href="https://plus.google.com/+IntellectitBySS/posts" title="Мы в Google Plus"><i class="fa fa-google-plus"></i></a>
+        </div>
+      </div>
+      <div class="col-xs-8 col-sm-4 col-md-2 col-lg-2">
+        <div class="phone text-right">
+          <a href="#" title="tel:+375337894554"><span>+375 (33) 789-45-54</span></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+        <div class="adress">
+          <a href="#" title="Минск,Тимирязева67,офис625"><span>Минск, Тимирязева 67, офис 625</span></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
+        <div class="all-adress">
+          <span><a href="#" title="Всеадреса"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Все адреса</span></a></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</footer>
+<script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
